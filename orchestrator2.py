@@ -8,7 +8,7 @@ from azure.core.credentials import AzureKeyCredential
 from azure.search.documents import SearchClient
 from azure.search.documents.models import VectorizedQuery, QueryType
 
-st.set_page_config(page_title="RAG Chat (Azure Search + Azure OpenAI)")
+st.set_page_config(page_title="3Dモデル作成支援Chat生成AIアプリ")
 
 # -------------------------------
 # 設定を st.secrets から取得
